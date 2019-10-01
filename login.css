@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#contact-welcome{
+    height: 300px;
+    background: linear-gradient(#0000007e,#0000007e), url(./artificial-intelligence-codes-developing-1936299.jpg) center center/cover no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.contact-us-inner{
+    text-align: center;
+    font-style: bold;
+}
+
+.contact-us-inner h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.contact-us-inner p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #fff;
+    height: 700px;
+}
+
+#contact-form form{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+color: #101010;
+padding: 30px;
+padding-top: 40px;
+background-color: #d8d8d8;
+width: 400px;
+height: 500px;
+}
+
+#contact-form h2,#contact-form label{
+    align-self: flex-start;
+}
+
+#contact-form h2{
+    line-height: 2em;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: #c50e0e solid 2px;
+}
+
+#contact-form label{
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 10px;
+}
+
+#contact-form input,#contact-form textarea{
+    padding: 8px;
+    background-color: #fff;
+    align-self: flex-start;
+    color: #727272;
+    border: #adadad 1px solid;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+#contact-form button{
+    padding: 10px 20px;
+    background-color: #b42f2f;
+    border: none;
+    color: #fff;
+    align-self: flex-start;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: .5 ease-in-out all;
+}
+
+#contact-form button:hover{
+    background-color: #c50e0e;
+    transition: .5 ease-in-out all;
+}
